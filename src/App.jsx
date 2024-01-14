@@ -1,26 +1,15 @@
-import './App.css'
+import { useState } from 'react'
 
-function App() {
-  const [, ] = useState()
+import ContactList from './components/ContactList'
+
+export default function App() {
+  
+  
 
   return (
     <>
-      <div>
-        
-      </div>
-      <h1></h1>
-      <div className="">
-        <button onClick={() => (() =>  + )}>
-           {}
-        </button>
-        <p>
-        </p>
-      </div>
-      <p className="">
-         
-      </p>
+    <ContactList/>
     </>
-  )
-}
 
-export default App
+  );
+} 
