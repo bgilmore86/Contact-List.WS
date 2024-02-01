@@ -12,7 +12,7 @@ export default function App() {
         return <SelectedContact selectedContactId=
         {selectedContactId} setSelectedContactId={setSelectedContactId}/>
       } else { //if else return ContactList component
-        return<ContactList />;
+        return<ContactList setSelectedContactId={setSelectedContactId}/>;
     }
 
   }
